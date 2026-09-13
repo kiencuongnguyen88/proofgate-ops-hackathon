@@ -1,0 +1,8 @@
+{
+  "source_app": "Gmail",
+  "source_id": "gmail-demo-001",
+  "subject": "Action required: submission review due Friday",
+  "body": "Your submission was accepted for review. Please confirm the repository and demo link by the Friday deadline.",
+  "sender": "ops@example.org",
+  "received_at": "2026-09-13T23:30:00+07:00"
+}

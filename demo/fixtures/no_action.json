@@ -1,0 +1,8 @@
+{
+  "source_app": "Gmail",
+  "source_id": "gmail-demo-003",
+  "subject": "Weekly digest",
+  "body": "FYI only. This weekly digest contains informational updates and no action required.",
+  "sender": "digest@example.org",
+  "received_at": "2026-09-13T23:32:00+07:00"
+}

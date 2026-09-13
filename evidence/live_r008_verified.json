@@ -1,0 +1,50 @@
+{
+  "run_id": "r008-d3effdc5501a",
+  "source": {
+    "app": "Gmail",
+    "message_id": "1a09732d5cd93de2",
+    "fingerprint": "2d17fefe09134133dc65826df2fe6941b780c9509fc13f79fde27274ee7f5377",
+    "fresh_readback": true
+  },
+  "decision": {
+    "value": "ACTION",
+    "confidence": 0.96,
+    "reason": "Material action signal(s): deadline, submission, accepted, judging."
+  },
+  "runbook": {
+    "app": "Google Drive",
+    "document_id": "1vHLy2s5kokCTlVx2sCOZP1bnhU8n_ZBHFIo_fkpkAqY",
+    "write_verified": true,
+    "readback_verified": true
+  },
+  "github_action": {
+    "repository": "kiencuongnguyen88/diamond-evidence-gate",
+    "issue_number": 2,
+    "url": "https://github.com/kiencuongnguyen88/diamond-evidence-gate/issues/2",
+    "write_verified": true,
+    "readback_verified": true
+  },
+  "proof_receipt": {
+    "app": "Google Drive",
+    "document_id": "17g58MneeyOY7_DxOpfv6bTy7CcE5yrpefgRgvwYl2OQ",
+    "written_status": "ACTION_WRITTEN_PENDING_RECEIPT_READBACK",
+    "readback_verified": true
+  },
+  "replay": {
+    "same_source_fresh_read": true,
+    "same_fingerprint": true,
+    "matching_github_issue_count": 1,
+    "new_issue_created": false,
+    "status": "DUPLICATE_REPLAY_NO_NEW_ACTION"
+  },
+  "terminal_status": "SUCCESS_VERIFIED",
+  "scope_guards": {
+    "email_send_or_modify": false,
+    "repo_code_commit": false,
+    "publish": false,
+    "submission": false,
+    "source_apply": false,
+    "db_write": false,
+    "rldb_writeback": false
+  }
+}

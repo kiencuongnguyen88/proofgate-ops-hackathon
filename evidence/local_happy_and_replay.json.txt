@@ -1,0 +1,110 @@
+{
+  "run_id": "71e46a4961cd",
+  "source_id": "gmail-demo-001",
+  "fingerprint": "d08b496c747d69225f8d8bc79da75ad188930da486b6e0eeee9fcb6a5b0a6dc5",
+  "decision": "ACTION",
+  "confidence": 0.96,
+  "status": "SUCCESS_VERIFIED",
+  "started_at": "2026-09-13T16:36:19.610106+00:00",
+  "finished_at": "2026-09-13T16:36:19.610401+00:00",
+  "steps": [
+    {
+      "step": "read_source",
+      "app": "Gmail",
+      "status": "PASS",
+      "object_id": "gmail-demo-001",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    },
+    {
+      "step": "decide",
+      "app": "Core",
+      "status": "PASS",
+      "object_id": null,
+      "detail": "Material action signal(s): action required, deadline, submission, accepted.",
+      "attempts": 1,
+      "readback_verified": null
+    },
+    {
+      "step": "read_runbook",
+      "app": "Google Drive",
+      "status": "PASS",
+      "object_id": "rb-hackathon-demo-v1",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    },
+    {
+      "step": "upsert_issue",
+      "app": "GitHub",
+      "status": "PASS",
+      "object_id": "1",
+      "detail": "created",
+      "attempts": 1,
+      "readback_verified": null
+    },
+    {
+      "step": "readback_issue",
+      "app": "GitHub",
+      "status": "PASS",
+      "object_id": "1",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    },
+    {
+      "step": "write_receipt",
+      "app": "Google Drive",
+      "status": "PASS",
+      "object_id": "drive-receipt-71e46a4961cd",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": null
+    },
+    {
+      "step": "readback_receipt",
+      "app": "Google Drive",
+      "status": "PASS",
+      "object_id": "drive-receipt-71e46a4961cd",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    }
+  ],
+  "output_object_ids": {
+    "github_issue_id": "1",
+    "drive_receipt_id": "drive-receipt-71e46a4961cd"
+  },
+  "errors": [],
+  "replay_of_run_id": null
+}
+
+--- replay ---
+{
+  "run_id": "52af163ac7a2",
+  "source_id": "gmail-demo-001",
+  "fingerprint": "d08b496c747d69225f8d8bc79da75ad188930da486b6e0eeee9fcb6a5b0a6dc5",
+  "decision": "ACTION",
+  "confidence": 0.96,
+  "status": "DUPLICATE_REPLAY_NO_NEW_ACTION",
+  "started_at": "2026-09-13T16:36:19.610488+00:00",
+  "finished_at": "2026-09-13T16:36:19.610506+00:00",
+  "steps": [
+    {
+      "step": "idempotency_check",
+      "app": "Core",
+      "status": "PASS",
+      "object_id": null,
+      "detail": "fingerprint already completed",
+      "attempts": 1,
+      "readback_verified": null
+    }
+  ],
+  "output_object_ids": {
+    "github_issue_id": "1",
+    "drive_receipt_id": "drive-receipt-71e46a4961cd"
+  },
+  "errors": [],
+  "replay_of_run_id": "71e46a4961cd"
+}

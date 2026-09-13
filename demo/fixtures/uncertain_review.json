@@ -1,0 +1,8 @@
+{
+  "source_app": "Gmail",
+  "source_id": "gmail-demo-002",
+  "subject": "Possible follow-up",
+  "body": "We might need something next week, but we are not sure yet. If needed, someone will follow up.",
+  "sender": "ops@example.org",
+  "received_at": "2026-09-13T23:31:00+07:00"
+}

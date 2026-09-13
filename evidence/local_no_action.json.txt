@@ -1,0 +1,33 @@
+{
+  "run_id": "e972d4082aea",
+  "source_id": "gmail-demo-003",
+  "fingerprint": "96da6de30fb6b3adfda0d75cfff914a625f4be8bdf0351b60ce9838abfaa5409",
+  "decision": "NO_ACTION",
+  "confidence": 0.95,
+  "status": "SAFE_STOP",
+  "started_at": "2026-09-13T16:36:21.230331+00:00",
+  "finished_at": "2026-09-13T16:36:21.230479+00:00",
+  "steps": [
+    {
+      "step": "read_source",
+      "app": "Gmail",
+      "status": "PASS",
+      "object_id": "gmail-demo-003",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    },
+    {
+      "step": "decide",
+      "app": "Core",
+      "status": "PASS",
+      "object_id": null,
+      "detail": "Explicit informational/no-action signal.",
+      "attempts": 1,
+      "readback_verified": null
+    }
+  ],
+  "output_object_ids": {},
+  "errors": [],
+  "replay_of_run_id": null
+}

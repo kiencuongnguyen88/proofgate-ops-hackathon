@@ -1,0 +1,33 @@
+{
+  "run_id": "b055101075aa",
+  "source_id": "gmail-demo-002",
+  "fingerprint": "04aa51699ecdb8c2e8ce9c10516bb8a0b3679df46dc851141f15434bbaaf949c",
+  "decision": "REVIEW",
+  "confidence": 0.55,
+  "status": "SAFE_STOP",
+  "started_at": "2026-09-13T16:36:20.427032+00:00",
+  "finished_at": "2026-09-13T16:36:20.427184+00:00",
+  "steps": [
+    {
+      "step": "read_source",
+      "app": "Gmail",
+      "status": "PASS",
+      "object_id": "gmail-demo-002",
+      "detail": "",
+      "attempts": 1,
+      "readback_verified": true
+    },
+    {
+      "step": "decide",
+      "app": "Core",
+      "status": "PASS",
+      "object_id": null,
+      "detail": "Ambiguous intent: might need, not sure.",
+      "attempts": 1,
+      "readback_verified": null
+    }
+  ],
+  "output_object_ids": {},
+  "errors": [],
+  "replay_of_run_id": null
+}

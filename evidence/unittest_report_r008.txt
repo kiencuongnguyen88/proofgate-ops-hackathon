@@ -1,0 +1,11 @@
+test_bounded_retry_recovers_single_transient_failure (test_engine.ProofGateEngineTests.test_bounded_retry_recovers_single_transient_failure) ... ok
+test_duplicate_replay_creates_no_new_action (test_engine.ProofGateEngineTests.test_duplicate_replay_creates_no_new_action) ... ok
+test_happy_path_has_three_apps_and_verified_readback (test_engine.ProofGateEngineTests.test_happy_path_has_three_apps_and_verified_readback) ... ok
+test_partial_failure_is_not_reported_as_success (test_engine.ProofGateEngineTests.test_partial_failure_is_not_reported_as_success) ... ok
+test_recovery_after_partial_failure_reuses_issue_then_finishes_receipt (test_engine.ProofGateEngineTests.test_recovery_after_partial_failure_reuses_issue_then_finishes_receipt) ... ok
+test_uncertain_input_stops_without_external_write (test_engine.ProofGateEngineTests.test_uncertain_input_stops_without_external_write) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.032s
+
+OK
