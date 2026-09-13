@@ -71,7 +71,7 @@ See [`SYSTEM_RELIABILITY_BRIEF.md`](SYSTEM_RELIABILITY_BRIEF.md) and the tests u
 ## Two-minute demo
 See [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
 
-**Demo URL:** _to be added after recording/upload_
+**Demo URL:** https://youtu.be/30siPYrRLRo
 
 ## Repository / demo access
 Organizer live briefing requires judges to be able to access both the repository and the two-minute demo. This project does not assume that “judge-accessible” necessarily means “public” unless the final submission instructions state that explicitly.
